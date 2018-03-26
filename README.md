@@ -4,7 +4,7 @@ Write a function to decide whether or not an application is able to be automatic
 accepted for a Business Cash Advance (BCA). The application must conform to the following criteria in order to be eligible:
 
 * The amount requested is between 5,000 and 50,000 inclusive
-* The transaction average in each month must exceed the requested amount
+* The total transactions in each month must exceed the requested amount
 * The business must have been operating for more than 12 months
 * If there are no transactions in a month for the last 12 months, then the assumed
   transaction value for that month is the average of all other months that do have transactions.
